@@ -4,7 +4,7 @@ import React, { useState, useCallback } from 'react';
 import { Container, Content } from './styles';
 
 function Main() {
-  const dayGraduation = new Date("Nov 30 2020 00:00:00");
+  const dayGraduation = new Date("Nov 27 2020 00:00:00");
   const [days, setDays] = useState();
   const [hours, setHours] = useState();
   const [minutes, setMinutes] = useState();
